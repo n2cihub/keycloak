@@ -1,0 +1,1 @@
+docker exec -it local_keycloak /bin/bash /opt/keycloak/bin/kc.sh export --file /opt/keycloak/data/import/keycloak-no-fomo-taskmanager.json --realm no-fomo-realm
